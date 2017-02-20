@@ -4,7 +4,7 @@ import org.gokb.cred.*
 import grails.converters.*
 import org.springframework.security.access.annotation.Secured;
 
-import grails.commons.GrailsClassUtils
+import grails.util.GrailsClassUtils
 
 
 @Secured(['ROLE_USER', 'IS_AUTHENTICATED_FULLY'])
