@@ -11,7 +11,7 @@ import org.apache.commons.collections.map.CaseInsensitiveMap
 import org.apache.commons.compress.archivers.*
 import org.apache.commons.compress.archivers.tar.*
 import org.apache.commons.compress.compressors.gzip.*
-import grails.web.json.JSONObject
+import org.grails.web.json.JSONObject
 import org.gokb.cred.*
 import org.gokb.refine.*
 import org.gokb.validation.Validation

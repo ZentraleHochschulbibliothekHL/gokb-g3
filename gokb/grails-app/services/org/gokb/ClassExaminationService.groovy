@@ -2,9 +2,9 @@ package org.gokb
 
 import java.beans.PropertyDescriptor
 import java.lang.reflect.Field
-import grails.commons.GrailsClass
-import grails.commons.GrailsDomainClass
-import grails.commons.GrailsDomainClassProperty
+import grails.core.GrailsClass
+import grails.core.GrailsDomainClass
+import grails.core.GrailsDomainClassProperty
 import grails.util.GrailsNameUtils
 import org.gokb.cred.RefdataValue
 import org.springframework.beans.BeanUtils

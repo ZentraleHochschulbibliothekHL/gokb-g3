@@ -2,7 +2,7 @@ package org.gokb
 
 import grails.transaction.Transactional
 
-import grails.commons.GrailsApplication
+import grails.core.GrailsApplication
 
 import com.k_int.RefineUtils
 import com.k_int.TextUtils

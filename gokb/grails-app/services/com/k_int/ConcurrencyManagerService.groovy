@@ -1,12 +1,12 @@
 package com.k_int
 
-import grails.plugin.executor.PersistenceContextExecutorWrapper
+import grails.plugins.executor.PersistenceContextExecutorWrapper
 import grails.transaction.Transactional
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.Future
 import java.util.concurrent.FutureTask
 import java.util.concurrent.TimeUnit
-import grails.commons.GrailsApplication
+import grails.core.GrailsApplication
 
 /**
  * This service will allocate tasks to the Executor service while maintaining a list of current tasks
