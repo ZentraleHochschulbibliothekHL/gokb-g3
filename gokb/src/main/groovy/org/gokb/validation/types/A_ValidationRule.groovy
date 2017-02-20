@@ -1,7 +1,7 @@
 package org.gokb.validation.types
 
 import com.k_int.RefineUtils
-import grails.web.json.JSONObject
+import org.grails.web.json.JSONObject
 
 abstract class A_ValidationRule {
 

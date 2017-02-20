@@ -1,8 +1,8 @@
 package org.gokb.refine
 
-import grails.web.json.JSONArray
-import grails.web.json.JSONElement
-import grails.web.json.JSONObject
+import org.grails.web.json.JSONArray
+import org.grails.web.json.JSONElement
+import org.grails.web.json.JSONObject
 
 
 class RefineOperation {

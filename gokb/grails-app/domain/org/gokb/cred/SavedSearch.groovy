@@ -1,8 +1,7 @@
 package org.gokb.cred
 
 import javax.persistence.Transient
-import grails.plugin.gson.converters.GSON
-import com.google.gson.*
+import grails.converters.JSON
 
 class SavedSearch {
 
@@ -25,8 +24,7 @@ class SavedSearch {
 
   @Transient
   def toParams() {
-    Gson gson = new Gson();
-    Map jsonObject = (Map) gson.fromJson(searchDescriptor, Object.class);
+    def jsonObject = JSON.parse(searchDescriptor) // (Map) gson.fromJson(searchDescriptor, Object.class);
     return jsonObject
   }
 }

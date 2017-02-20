@@ -6,7 +6,6 @@ import java.lang.reflect.Method
 import java.lang.reflect.Modifier
 
 import grails.web.context.ServletContextHolder as SCH
-import grails.web.servlet.GrailsApplicationAttributes as GA
 import org.grails.datastore.gorm.AbstractGormApi
 import org.springframework.context.ApplicationContext
 
@@ -56,7 +55,7 @@ abstract class A_Api <T> {
    * @return ApplicationContext the app context
    */
   protected static ApplicationContext getApplicationContext() {
-    if (!appContext) appContext = GA.getApplicationContext()
+    if (!appContext) appContext = grails.util.Holders.findApplication().getMainContext();
     appContext
   }
 

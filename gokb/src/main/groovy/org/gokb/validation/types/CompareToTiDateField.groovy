@@ -1,11 +1,7 @@
 package org.gokb.validation.types
 
 import groovy.util.logging.Log4j;
-
 import java.text.SimpleDateFormat
-
-import grails.web.context.ServletContextHolder as SCH
-import grails.web.servlet.GrailsApplicationAttributes as GA
 import org.joda.time.format.*
 
 @Log4j
@@ -32,7 +28,8 @@ class CompareToTiDateField extends A_ValidationRule implements I_DeferredRowVali
     this.operator = operator
     this.class_one_cols = class_one_cols
     
-    def appContext = SCH.servletContext.getAttribute(GA.APPLICATION_CONTEXT)
+    def appContext = grails.util.Holders.findApplication().getMainContext();
+
     this.titleLookupService = appContext."titleLookupService"
 
     if (!(severity && class_one_cols && ti_field_name && operator)) {
