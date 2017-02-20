@@ -48,16 +48,20 @@ dependencies {
     compile "org.hibernate:hibernate-ehcache:5.1.2.Final"
     compile "joda-time:joda-time:2.9.7"
 
-    runtime  group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
+    runtime 'postgresql:postgresql:9.1-901-1.jdbc4'
     runtime 'org.apache.commons:commons-compress:1.9'
     compile 'commons-io:commons-io:2.5'
+
+    compile 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.1'
+
 
     runtime 'org.apache.tika:tika-core:1.6'
 
     runtime 'org.elasticsearch:elasticsearch:2.1.1'
 
     runtime 'xalan:xalan:2.7.1'
-    runtime 'net.sf.opencsv:opencsv:2.0'
+    compile group: 'au.com.bytecode', name: 'opencsv', version: '2.4'
+
 
     compile 'org.ajoberstar:grgit:0.3.0' // 0.3.0 is Groovy >=2.3 and breaks for me.
 
