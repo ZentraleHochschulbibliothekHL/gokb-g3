@@ -3,13 +3,15 @@ package com.k_int;
 import java.util.Collection;
 import java.util.Iterator;
  
-import org.grails.orm.hibernate.cfg.GrailsAnnotationConfiguration;
+// http://gorm.grails.org/6.0.x/whatsNew/manual/ -- New unified configuration
+// import org.grails.orm.hibernate.cfg.GrailsAnnotationConfiguration
 import org.hibernate.MappingException;
 import org.hibernate.mapping.ForeignKey;
 import org.hibernate.mapping.PersistentClass;
 import org.hibernate.mapping.RootClass;
  
-public class KIGormConfiguration extends GrailsAnnotationConfiguration {
+// public class KIGormConfiguration extends GrailsAnnotationConfiguration {
+public class KIGormConfiguration {
  
    private static final long serialVersionUID = 1;
  
