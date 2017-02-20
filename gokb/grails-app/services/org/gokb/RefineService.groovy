@@ -2,7 +2,6 @@ package org.gokb
 
 import grails.transaction.Transactional
 
-import org.codehaus.gant.GantBuilder
 import grails.commons.GrailsApplication
 
 import com.k_int.RefineUtils
@@ -148,99 +147,4 @@ class RefineService {
     null
   }
   
-  def buildExtension () {
-    
-    // Create a Gant Builder for this operation.
-    GantBuilder gant = new GantBuilder()
-    
-    // Build Open refine first.
-    buildOpenRefine (gant)
-    
-    // Now build the extension.
-    def results = buildGOKbRefineExtension (gant)
-    
-    // Grab the zip locations.
-    def zips = results*.remove("refine_package")
-    
-    // Deploy the extension.
-    if (zips) {
-      RefineUtils.copyZip(gant, zips, "${refineFolder}")
-    }
-    
-    results
-  }
-  
-  
-  private void buildOpenRefine (AntBuilder ant) {
-    
-    def config = grailsApplication.config
-    
-    // Create the directory to house the OpenRefine project.
-    File refine_repo = new File("${System.properties['user.home']}", "${config.refine.refineRepoPath}")
-    
-    // The build.xml located in the OpenRefine download.
-    File refine_bxml = new File (refine_repo, "${config.refine.refineBuildFile}")
-    
-    // Do the build.
-    RefineUtils.buildRefine(
-      config.refine.refineRepoURL,
-      refine_repo,
-      refine_bxml,
-      config.refine.refineBuildTarget,
-      ant,
-      config.refine.refineRepoBranch,
-      config.refine.refineRepoTagPattern
-    )
-  }
-  
-  private def buildGOKbRefineExtension (AntBuilder ant) {
-    
-    def config = grailsApplication.config
-    
-    // Create the directory to house the OpenRefine project.
-    File refine_repo = new File("${System.properties['user.home']}", "${config.refine.refineRepoPath}")
-    
-    // The target to copy the directory to.
-    File gokb_extension_target = new File(refine_repo, "${config.refine.gokbExtensionTarget}")
-    
-    // Create the directory for project containing refine extension.
-    File extension_repo = new File("${System.properties['user.home']}", "${config.refine.extensionRepoPath}")
-    
-    // The extension location within the repo.
-    File gokb_extension_path = new File(extension_repo, "${config.refine.gokbExtensionPath}")
-    
-    // The build.xml for the GOKb extension.
-    File refine_extension_bxml = new File (gokb_extension_target, "${config.refine.extensionBuildFile}")
-    
-    def info = []
-    info << RefineUtils.buildGOKbRefineExtension(
-      config.refine.gokbRepoURL,
-      extension_repo,
-      refine_extension_bxml,
-      config.refine.extensionBuildTarget,
-      refine_repo,
-      gokb_extension_path,
-      gokb_extension_target,
-      config.refine.gokbRepoTagPattern,
-      ant,
-      config.refine.gokbRepoBranch,
-      config.refine.gokbRepoTagPattern
-    )
-    
-    info << RefineUtils.buildGOKbRefineExtension(
-      config.refine.gokbRepoURL,
-      extension_repo,
-      refine_extension_bxml,
-      config.refine.extensionBuildTarget,
-      refine_repo,
-      gokb_extension_path,
-      gokb_extension_target,
-      config.refine.gokbRepoTestTagPattern,
-      ant,
-      config.refine.gokbRepoTestBranch,
-      config.refine.gokbRepoTestTagPattern
-    )
-    
-    info
-  }
 }
