@@ -2,7 +2,7 @@ package com.k_int
 
 import groovy.util.logging.Log4j
 
-import grails.web.json.*
+import org.grails.web.json.*
 
 @Log4j
 class RefineUtils {
