@@ -2,38 +2,45 @@ package org.gokb
 
 import org.elasticsearch.client.Client
 import org.elasticsearch.node.Node
-import static org.elasticsearch.node.NodeBuilder.nodeBuilder
 import org.elasticsearch.client.transport.TransportClient
 import org.elasticsearch.common.settings.Settings
-import org.elasticsearch.groovy.*
 import org.elasticsearch.common.transport.InetSocketTransportAddress
+
+import static groovy.json.JsonOutput.*
+
+import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.action.search.SearchType;
+import org.elasticsearch.index.query.QueryBuilders
+
 
 class ESWrapperService {
 
   static transactional = false
 
   def grailsApplication
-  def esclient = null;
+  TransportClient esclient = null;
 
   @javax.annotation.PostConstruct
   def init() {
+    log.debug("init ES wrapper service");
+    Settings settings = Settings.builder().put("cluster.name", "elasticsearch").build();
+    esclient = new org.elasticsearch.transport.client.PreBuiltTransportClient(settings);
+    esclient.addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), 9300));
+  }
 
-    log.debug("ESWrapperService::init");
-
-    def es_cluster_name = grailsApplication.config.aggr_es_cluster?:"elasticsearch"
-    log.debug("es_cluster = ${es_cluster_name}");
-
-    Settings settings = Settings.settingsBuilder()
-                         .put("client.transport.sniff", true)
-                         .put("cluster.name", es_cluster_name)
-                         .build();
-
-    esclient = TransportClient.builder().settings(settings).build();
-
-    // add transport addresses
-    esclient.addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), 9300 as int))
-
-    log.debug("ES Init completed");
+  def index(index,typename,id,record) {
+    def result=null;
+    try {
+      // Convert the record to JSON
+      // def json_string = toJson( record )
+      // log.debug("Sending to ${index} ${typename} \n${json_string}\n");
+      def future = esclient.prepareIndex(index,typename,id).setSource(record)
+      result=future.get()
+    }
+    catch ( Exception e ) {
+      log.error("Error processing ${toJson(record)}",e);
+    }
+    result
   }
 
   def getClient() {
