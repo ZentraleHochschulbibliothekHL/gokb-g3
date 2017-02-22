@@ -23,6 +23,9 @@ endpoints:
     enabled: false
     jmx:
         enabled: true
+---
+gokb:
+    theme: 'spacelab'
 
 ---
 grails:
