@@ -54,48 +54,21 @@ grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'org.gokb.cred.
 grails.plugin.springsecurity.authority.className = 'org.gokb.cred.Role'
 
 //Enable Basic Auth Filter
-grails.plugin.springsecurity.useBasicAuth = true
-grails.plugin.springsecurity.basic.realmName = "GOKb API Authentication Required"
-//Exclude normal controllers from basic auth filter. Just the JSON API is included
-grails.plugin.springsecurity.filterChain.chainMap = [
-  '/api/**': 'JOINED_FILTERS,-exceptionTranslationFilter',
-  '/packages/deposit': 'JOINED_FILTERS,-exceptionTranslationFilter',
-  '/admin/bulkLoadUsers': 'JOINED_FILTERS,-exceptionTranslationFilter',
-  '/**': 'JOINED_FILTERS,-basicAuthenticationFilter,-basicExceptionTranslationFilter'
-]
+// grails.plugin.springsecurity.useBasicAuth = true
+// grails.plugin.springsecurity.basic.realmName = "GOKb API Authentication Required"
 
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-  [ '/admin/**':                ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/file/**':                 ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/monitoring/**':           ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/':                        ['permitAll']],
-  [ '/index':                   ['permitAll']],
-  [ '/index.gsp':               ['permitAll']],
-  [ '/register/**':             ['permitAll']],
-  [ '/packages/**':             ['permitAll']],
-  [ '/public/**':               ['permitAll']],
-  [ '/globalSearch/**':         ['ROLE_USER']],
-  [ '/assets/**':               ['permitAll']],
-  [ '/**/js/**':                ['permitAll']],
-  [ '/**/css/**':               ['permitAll']],
-  [ '/**/images/**':            ['permitAll']],
-  [ '/**/favicon.ico':          ['permitAll']],
-  [ '/api/esconfig':            ['permitAll']],
-  [ '/api/capabilities':        ['permitAll']],
-  [ '/api/downloadUpdate':      ['permitAll']],
-  [ '/api/checkUpdate':         ['permitAll']],
-  [ '/api/isUp':                ['permitAll']],
-  [ '/api/userData':            ['permitAll']],
-  [ '/user/**':                 ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/role/**':                 ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/securityInfo/**':         ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/registrationCode/**':     ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/aclClass/**':             ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/aclSid/**':               ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/aclObjectIdentity/**':    ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/aclEntry/**':             ['ROLE_SUPERUSER', 'IS_AUTHENTICATED_FULLY']],
-  [ '/oai':                     ['permitAll']],
-  [ '/oai/**':                  ['permitAll']]
+        [pattern: '/',               access: ['permitAll']],
+        [pattern: '/home/index',     access: ['permitAll']],
+        [pattern: '/error',          access: ['permitAll']],
+        [pattern: '/index',          access: ['permitAll']],
+        [pattern: '/index.gsp',      access: ['permitAll']],
+        [pattern: '/shutdown',       access: ['permitAll']],
+        [pattern: '/assets/**',      access: ['permitAll']],
+        [pattern: '/**/js/**',       access: ['permitAll']],
+        [pattern: '/**/css/**',      access: ['permitAll']],
+        [pattern: '/**/images/**',   access: ['permitAll']],
+        [pattern: '/**/favicon.ico', access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -106,5 +79,4 @@ grails.plugin.springsecurity.filterChain.chainMap = [
         [pattern: '/**/favicon.ico', filters: 'none'],
         [pattern: '/**',             filters: 'JOINED_FILTERS']
 ]
-
 
