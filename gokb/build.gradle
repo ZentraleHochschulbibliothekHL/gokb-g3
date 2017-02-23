@@ -112,6 +112,6 @@ assets {
 //    ]
     
     // Default to exclude all less files as majority are partials and won't compile.
-    excludes = ["**/*.less"]
+    excludes = ["**/*.less", '**/*.min.js', '**/*.min.css']
     includes = ["gokb/themes/**/theme.less", "jquery/*.js"]
 }
