@@ -56,6 +56,8 @@ class User extends Party {
     last_alert_check blank: false, nullable:true
     alert_check_frequency blank: false, nullable:true
     send_alert_emails blank: false, nullable:true
+    showQuickView blank: false, nullable:true 
+    showInfoIcon blank: false, nullable:true
   }
 
   static mapping = {
