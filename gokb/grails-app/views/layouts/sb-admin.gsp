@@ -17,7 +17,7 @@
   <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
   <g:layoutHead />
 
-  <asset:javascript src="gokb/application.grass.js" />
+  <asset:javascript src="gokb/application.js" />
   <asset:stylesheet src="gokb/sb-admin-2.css"/>
   <!-- Include theme: ${ grailsApplication.config.gokb.theme } -->
   <asset:stylesheet src="gokb/themes/${ grailsApplication.config.gokb.theme }/theme.css"/>
