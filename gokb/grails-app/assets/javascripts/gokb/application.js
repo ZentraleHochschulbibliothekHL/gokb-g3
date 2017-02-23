@@ -1,7 +1,7 @@
 /**
  * GOKb application javascript file.
  */
-//=require jquery
+//=require jquery-2.2.0.min
 //=require jquery.mask
 //=require raphael.min
 //=require morris.min

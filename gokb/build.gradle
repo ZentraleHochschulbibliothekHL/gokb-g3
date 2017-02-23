@@ -105,9 +105,13 @@ assets {
     minifyJs = true
     minifyCss = true
     // Ask the less-asset-pipeline plugin to use the old style less compliler - seems to do nothing :(
-    configOptions = [
-      less: [
-        compiler: 'standard'
-      ]
-    ]
+//    configOptions = [
+//      less: [
+//        compiler: 'standard'
+//      ]
+//    ]
+    
+    // Default to exclude all less files as majority are partials and won't compile.
+    excludes = ["**/*.less", '**/*.min.js', '**/*.min.css']
+    includes = ["gokb/themes/**/theme.less", "jquery/*.js"]
 }

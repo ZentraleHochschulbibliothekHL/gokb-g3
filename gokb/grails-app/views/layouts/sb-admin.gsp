@@ -17,8 +17,7 @@
   <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
   <g:layoutHead />
 
-  <asset:javascript src="gokb/application.grass.js" />
-  <asset:stylesheet src="gokb/${'application.css'}"/>
+  <asset:javascript src="gokb/application.js" />
 
   <asset:script type="text/javascript" src="//cdn.jsdelivr.net/webshim/1.12.4/extras/modernizr-custom.js"></asset:script>
   <asset:script type="text/javascript" src="//cdn.jsdelivr.net/webshim/1.12.4/polyfiller.js"></asset:script>
