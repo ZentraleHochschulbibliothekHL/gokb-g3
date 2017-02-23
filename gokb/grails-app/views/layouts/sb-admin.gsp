@@ -18,13 +18,16 @@
   <g:layoutHead />
 
   <asset:javascript src="gokb/application.grass.js" />
-  <asset:stylesheet src="gokb/sb-admin-2.css"/>
-  <!-- Include theme: ${ grailsApplication.config.gokb.theme } -->
-  <asset:stylesheet src="gokb/themes/${ grailsApplication.config.gokb.theme }/theme.css"/>
   <asset:stylesheet src="gokb/${'application.css'}"/>
 
   <asset:script type="text/javascript" src="//cdn.jsdelivr.net/webshim/1.12.4/extras/modernizr-custom.js"></asset:script>
   <asset:script type="text/javascript" src="//cdn.jsdelivr.net/webshim/1.12.4/polyfiller.js"></asset:script>
+
+  <asset:stylesheet src="gokb/sb-admin-2.css"/>
+  <!-- Include theme: ${ grailsApplication.config.gokb.theme } -->
+  <asset:stylesheet src="gokb/themes/${ grailsApplication.config.gokb.theme }/theme.css"/>
+
+  <!-- End of css -->
 
   <asset:script>
     webshims.setOptions('waitReady', false);

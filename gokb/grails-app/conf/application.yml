@@ -118,8 +118,9 @@ dataSource:
       defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
 
 environments:
-    # development:
-        # dataSource:
+    development:
+        dataSource:
+            wibble: 'true'
     test:
         dataSource:
             url: jdbc:postgresql://localhost:5432/gokb_g3_test
