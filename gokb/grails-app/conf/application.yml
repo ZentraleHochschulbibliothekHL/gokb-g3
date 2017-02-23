@@ -26,7 +26,6 @@ endpoints:
 ---
 gokb:
     theme: 'spacelab'
-
 ---
 grails:
     mime:
