@@ -6,9 +6,9 @@ Grails 3 Port of gokb-phase1
 
 #### Database Creation
 
-CREATE DATABASE
+CREATE DATABASE gokb_g3_dev;
 CREATE USER knowint WITH PASSWORD 'knowint';
-GRANT ALL PRIVILEGES ON DATABASE gokb_g3 to knowint;
+GRANT ALL PRIVILEGES ON DATABASE gokb_g3_dev to knowint;
 
 #### Post first run
 
