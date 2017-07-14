@@ -84,6 +84,7 @@ endpoints:
 
 ---
 hibernate:
+    naming_strategy: com.test.CustomNamingStrategy
     cache:
         queries: false
         use_second_level_cache: true
@@ -101,7 +102,8 @@ environments:
             username: knowint
             password: knowint
             driverClassName: org.postgresql.Driver
-            dialect: org.hibernate.dialect.PostgreSQLDialect
+            dialect: com.k_int.yarm.utils.PgSQLCustomDialect
+            # dialect: org.hibernate.dialect.PostgreSQL82Dialect
             url: jdbc:postgresql://localhost:5432/gokb_g3_dev
     test:
         dataSource:
@@ -109,7 +111,8 @@ environments:
             username: knowint
             password: knowint
             driverClassName: org.postgresql.Driver
-            dialect: org.hibernate.dialect.PostgreSQLDialect
+            dialect: com.k_int.yarm.utils.PgSQLCustomDialect
+            # dialect: org.hibernate.dialect.PostgreSQL82Dialect
             url: jdbc:postgresql://localhost:5432/gokb_g3_test
     production:
         dataSource:
@@ -117,5 +120,6 @@ environments:
             username: knowint
             password: knowint
             driverClassName: org.postgresql.Driver
-            dialect: org.hibernate.dialect.PostgreSQLDialect
+            # dialect: org.hibernate.dialect.PostgreSQL82Dialect
+            dialect: com.k_int.yarm.utils.PgSQLCustomDialect
             url: jdbc:postgresql://localhost:5432/gokb_g3_prod
