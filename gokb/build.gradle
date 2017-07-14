@@ -50,6 +50,7 @@ dependencies {
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 
     // Added deps - ones above from default grails create-app
+    compile 'org.codehaus.groovy:groovy-all:2.4.12'
     compile "joda-time:joda-time:2.9.7"
     compile 'org.apache.tika:tika-core:1.14'
     compile 'org.grails.plugins:grails-executor:0.4'
@@ -73,7 +74,7 @@ dependencies {
     compile 'org.ajoberstar:grgit:0.3.0' // 0.3.0 is Groovy >=2.3 and breaks for me.
 
     compile 'org.grails.plugins:spring-security-core:3.1.2'
-    compile 'org.grails.plugins:grails-melody-plugin:1.62.0'
+    // compile 'org.grails.plugins:grails-melody-plugin:1.62.0'
 }
 
 bootRun {
