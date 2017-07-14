@@ -1,0 +1,30 @@
+{
+  "id": "gokbg3-module",
+  "name": "Folio GOKb Module",
+  "provides": [
+    {
+      "id": "gokb",
+      "version": "1.0",
+      "handlers" : [
+        {
+          "methods": [ "GET" ],
+          "pathPattern": "/search"
+        }
+      ]
+    },
+    {
+      "id": "_tenant",
+      "version": "1.0",
+      "interfaceType" : "system",
+      "handlers": [
+        {
+          "methods": ["POST"],
+          "pathPattern": "/_/tenant"
+        }, {
+          "methods": ["DELETE"],
+          "pathPattern": "/_/tenant"
+        }
+      ]
+    }
+  ]
+}
