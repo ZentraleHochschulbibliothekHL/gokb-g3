@@ -72,9 +72,7 @@ dependencies {
 
     compile 'org.ajoberstar:grgit:0.3.0' // 0.3.0 is Groovy >=2.3 and breaks for me.
 
-    compile 'org.grails.plugins:spring-security-core:3.1.1'
-    compile 'org.grails.plugins:spring-security-acl:3.1.0'
-    // compile 'org.grails.plugins:spring-security-ui:3.0.0.M2'
+    compile 'org.grails.plugins:spring-security-core:3.1.2'
 
     compile 'org.grails.plugins:grails-melody-plugin:1.62.0'
 

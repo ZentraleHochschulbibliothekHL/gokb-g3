@@ -1,4 +1,4 @@
-package com.k_int
+package com.k_int.hibernate
 
 import grails.util.Holders
 import org.hibernate.cfg.ImprovedNamingStrategy

@@ -84,7 +84,7 @@ endpoints:
 
 ---
 hibernate:
-    naming_strategy: com.test.CustomNamingStrategy
+    naming_strategy: com.k_int.hibernate.CustomNamingStrategy
     cache:
         queries: false
         use_second_level_cache: true
