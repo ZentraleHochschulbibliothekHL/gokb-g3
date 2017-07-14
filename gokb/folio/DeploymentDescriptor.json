@@ -1,7 +1,0 @@
-{
-  "srvcId": "gokbg3-module",
-  "nodeId": "localhost",
-  "descriptor": {
-    "exec": "java -jar ../gokb-g3/gokb/build/libs/gokb-0.1.war --server.port=%p --spring.config.location=file:../folio_globals.yaml"
-  }
-}
