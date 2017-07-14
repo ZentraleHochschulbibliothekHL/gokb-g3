@@ -5,7 +5,8 @@ buildscript {
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
-        classpath "org.grails.plugins:hibernate5:6.0.4"
+        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.14.1"
+        classpath "org.grails.plugins:hibernate5:${gormVersion-".RELEASE"}"
     }
 }
 
@@ -17,19 +18,13 @@ apply plugin:"idea"
 apply plugin:"war"
 apply plugin:"org.grails.grails-web"
 apply plugin:"org.grails.grails-gsp"
+apply plugin:"asset-pipeline"
 
 repositories {
     mavenLocal()
     mavenCentral()
     maven { url "https://repo.grails.org/grails/core" }
     maven { url "http://nexus.k-int.com/content/repositories/releases" }
-}
-
-dependencyManagement {
-    imports {
-        mavenBom "org.grails:grails-bom:$grailsVersion"
-    }
-    applyMavenExclusions false
 }
 
 dependencies {
@@ -43,28 +38,33 @@ dependencies {
     compile "org.grails.plugins:cache"
     compile "org.grails.plugins:scaffolding"
     compile "org.grails.plugins:hibernate5"
-    compile "org.hibernate:hibernate-core:5.1.2.Final"
-    compile "org.hibernate:hibernate-ehcache:5.1.2.Final"
+    compile "org.hibernate:hibernate-core:5.1.3.Final"
+    compile "org.hibernate:hibernate-ehcache:5.1.3.Final"
+    console "org.grails:grails-console"
+    profile "org.grails.profiles:web"
+    runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.1"
+    runtime "com.h2database:h2"
+    testCompile "org.grails:grails-plugin-testing"
+    testCompile "org.grails.plugins:geb"
+    testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
+    testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    // Added deps - ones above from default grails create-app
     compile "joda-time:joda-time:2.9.7"
-
     compile 'org.apache.tika:tika-core:1.14'
-
     compile 'org.grails.plugins:grails-executor:0.4'
-
     runtime 'postgresql:postgresql:9.1-901-1.jdbc4'
     compile 'commons-io:commons-io:2.5'
     compile 'org.apache.commons:commons-compress:1.13'
 
     compile 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.1'
 
-    // compile 'org.grails.plugins:elasticsearch:1.2.0'
     compile 'org.elasticsearch:elasticsearch:5.1.1'
     compile 'org.elasticsearch.client:transport:5.1.1'
 
     // log4j deps for es5 above
     compile 'org.apache.logging.log4j:log4j-api:2.7'
     compile 'org.apache.logging.log4j:log4j-core:2.7'
-
 
     runtime 'xalan:xalan:2.7.1'
     compile group: 'au.com.bytecode', name: 'opencsv', version: '2.4'
@@ -73,18 +73,7 @@ dependencies {
     compile 'org.ajoberstar:grgit:0.3.0' // 0.3.0 is Groovy >=2.3 and breaks for me.
 
     compile 'org.grails.plugins:spring-security-core:3.1.2'
-
     compile 'org.grails.plugins:grails-melody-plugin:1.62.0'
-
-
-    console "org.grails:grails-console"
-    profile "org.grails.profiles:web"
-
-    runtime "com.h2database:h2"
-    testCompile "org.grails:grails-plugin-testing"
-    testCompile "org.grails.plugins:geb"
-    testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
-    testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 }
 
 bootRun {

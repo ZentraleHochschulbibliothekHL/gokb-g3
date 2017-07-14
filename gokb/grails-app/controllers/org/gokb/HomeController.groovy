@@ -23,6 +23,10 @@ class HomeController {
   def login() {
   }
 
+  @Secured(['ROLE_USER', 'IS_AUTHENTICATED_FULLY'])
+  def logout() {
+  }
+
   def index () {
   }
 

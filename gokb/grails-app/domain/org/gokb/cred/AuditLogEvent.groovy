@@ -64,9 +64,6 @@ class AuditLogEvent implements Serializable {
 
     static mapping = {
 
-        // Set similiar when you used "auditLog.tablename" in < 1.1.0 plugin version.
-        table 'audit_log'
-
         // Remove when you used "auditLog.cacheDisabled = true" in < 1.1.0 plugin version.
         cache usage: 'read-only', include: 'non-lazy'
 

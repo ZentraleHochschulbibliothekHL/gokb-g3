@@ -32,7 +32,6 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><sec:username/><b class="caret"></b></a>
               <ul class="dropdown-menu pull-right">
-                <li><g:link controller="directory" action="user" id="${current_user?.uriName}">Your Profile</g:link></li>
                 <li class="divider"></li>
                 <li><g:link controller="home" action="logout">Logout</g:link></li>
               </ul>
