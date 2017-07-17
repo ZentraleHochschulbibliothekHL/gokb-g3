@@ -59,6 +59,9 @@ grails.plugin.springsecurity.authority.className = 'org.gokb.cred.Role'
 
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         [pattern: '/',               access: ['permitAll']],
+        // Remember that these patterns use the controller name and not the UrlMapping name,
+        // This pattern allows okapi to use the tenant interface without authentication
+        [pattern: '/okapi/**',       access: ['permitAll']],
         [pattern: '/home/index',     access: ['permitAll']],
         [pattern: '/error',          access: ['permitAll']],
         [pattern: '/index',          access: ['permitAll']],
