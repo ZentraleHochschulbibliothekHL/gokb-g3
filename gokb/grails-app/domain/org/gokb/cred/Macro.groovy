@@ -14,7 +14,7 @@ class Macro extends KBComponent {
     refineTransformations type: 'text'
     description type: 'text'
     
-    tags joinTable: [name: 'macro_tags_value', key: 'mtgs_kbc_id', column: 'mtgs_rdv_id']
+    tags joinTable: [name: 'gokb_macro_tags_value', key: 'mtgs_kbc_id', column: 'mtgs_rdv_id']
  }
   static constraints = {
     description nullable:true, blank:false
