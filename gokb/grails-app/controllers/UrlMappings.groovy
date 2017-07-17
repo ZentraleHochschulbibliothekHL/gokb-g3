@@ -9,11 +9,8 @@ class UrlMappings {
       }
     }
 
-    "/oai/$id"(controller:'oai',action:'index')
-
+    "/_/tenant"(controller: 'okapi', action:'tenant')
     "/"(controller:'home',action:'index')
-    "/rules"(controller:'home',action:'showRules')
-    "/nourl"(view:'/NoUrl')
     "500"(view:'/error')
   }
 }
