@@ -2,11 +2,12 @@ package org.gokb.cred
 
 import javax.persistence.Transient
 import groovy.util.logging.*
+import java.time.LocalDate
 
 @Log4j
 class TitleInstancePackagePlatform extends KBComponent {
 
-  Date startDate
+  LocalDate startDate
   String startVolume
   String startIssue
   String embargo
@@ -19,12 +20,12 @@ class TitleInstancePackagePlatform extends KBComponent {
   String hybridOAUrl
   RefdataValue primary
   RefdataValue paymentType
-  Date endDate
+  LocalDate endDate
   String endVolume
   String endIssue
   String url
-  Date accessStartDate
-  Date accessEndDate
+  LocalDate accessStartDate
+  LocalDate accessEndDate
 
   private static refdataDefaults = [
     "format"        : "Electronic",
