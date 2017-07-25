@@ -1,0 +1,9 @@
+testsection:
+  message: Test Global Configuration Worked
+dataSource:
+  dbCreate: update
+  username: folio
+  password: folio
+  driverClassName: org.postgresql.Driver
+  dialect: org.hibernate.dialect.PostgreSQL82Dialect
+  url: jdbc:postgresql://localhost:5432/folio
