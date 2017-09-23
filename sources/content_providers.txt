@@ -1,0 +1,780 @@
++---------------------------------------------------------------------------------+----------+
+| org_name                                                                        | count(*) |
++---------------------------------------------------------------------------------+----------+
+| Elsevier                                                                        |      148 |
+| JSTOR                                                                           |      103 |
+| Annual Reviews                                                                  |       84 |
+| Oxford University Press                                                         |       72 |
+| Taylor & Francis                                                                |       49 |
+| Wiley                                                                           |       37 |
+| Springer                                                                        |       33 |
+| Project Muse                                                                    |       33 |
+| SAGE                                                                            |       33 |
+| Emerald                                                                         |       32 |
+| Cambridge University Press                                                      |       29 |
+| Maney Publishing                                                                |       28 |
+| De Gruyter                                                                      |       25 |
+| IOP                                                                             |       20 |
+| Proquest                                                                        |       18 |
+| Royal Society of Chemistry                                                      |       17 |
+| BMJ                                                                             |       16 |
+| Brill                                                                           |       15 |
+| Duke University Press                                                           |       15 |
+| Edinburgh University Press                                                      |       14 |
+| American Chemical Society                                                       |       14 |
+| American Institute of Physics                                                   |       13 |
+| Institution of Civil Engineers                                                  |       12 |
+| ISPG                                                                            |       12 |
+| Nature                                                                          |       11 |
+| Georg Thieme Verlag                                                             |       10 |
+| BioOne                                                                          |       10 |
+| EBSCO                                                                           |        9 |
+| Bloomsbury                                                                      |        9 |
+| Informa Healthcare                                                              |        9 |
+| Cengage                                                                         |        9 |
+| S. Karger AG                                                                    |        9 |
+| Now Publishing                                                                  |        8 |
+| Bentham Science                                                                 |        8 |
+| EDP Sciences                                                                    |        8 |
+| Project Euclid                                                                  |        8 |
+| ASCE                                                                            |        8 |
+| American Physical Society                                                       |        7 |
+| SAGE - The Royal Society of Medicine                                            |        7 |
+| Karger                                                                          |        7 |
+| Multi-Science                                                                   |        7 |
+| AAAS                                                                            |        6 |
+| IMechE                                                                          |        5 |
+| Future Medicine                                                                 |        5 |
+| Association of Computing Machinery                                              |        5 |
+| Society for Industrial and Applied Mathematics                                  |        5 |
+| American Physiological Society                                                  |        4 |
+| Expert Reviews Ltd                                                              |        4 |
+| Wolters Kluwer                                                                  |        4 |
+| The Geological Society of America                                               |        4 |
+| IOS Press                                                                       |        4 |
+| BioMed Central Ltd                                                              |        4 |
+| Exact Editions                                                                  |        3 |
+| American Psychological Association                                              |        3 |
+| American Society of Mechanical Engineers                                        |        3 |
+| Mary Ann Liebert                                                                |        3 |
+| Digitorial Limited                                                              |        3 |
+| Internet Archaeology                                                            |        3 |
+| Universitetsforlaget                                                            |        3 |
+| Berg                                                                            |        3 |
+| NRC Research Press                                                              |        3 |
+| JoVe                                                                            |        3 |
+| IEEE                                                                            |        3 |
+| Ovid                                                                            |        2 |
+| American Society for Microbiology                                               |        2 |
+| Royal College of Nursing                                                        |        2 |
+| Intellect                                                                       |        2 |
+| Bepress                                                                         |        2 |
+| LexisNexis                                                                      |        2 |
+| Mark Allen Publishing Limited                                                   |        2 |
+| University of Pennsylvania Press                                                |        2 |
+| American Society for Biochemistry and Molecular Biology                         |        2 |
+| Thieme                                                                          |        2 |
+| American Mathematical Society                                                   |        2 |
+| Vittorio Klostermann                                                            |        2 |
+| Inderscience                                                                    |        2 |
+| Ubiquity Press                                                                  |        2 |
+| Philosophy Documentation Center                                                 |        2 |
+| Institution of Civil Engineers Publishing                                       |        2 |
+| American Association of Cancer Research                                         |        2 |
+| American Occupational Therapy Association                                       |        2 |
+| OECD                                                                            |        2 |
+| Begell House                                                                    |        2 |
+| Royal Society Publishing                                                        |        2 |
+| The Endocrine Society                                                           |        2 |
+| IGI Global                                                                      |        2 |
+| SAGE Publications                                                               |        2 |
+| ICE Publishing                                                                  |        2 |
+| American Meteorological Society                                                 |        2 |
+| Liverpool University Press                                                      |        2 |
+| Manchester University Press                                                     |        2 |
+| American Library Association                                                    |        2 |
+| The National Library of Wales Aberystwyth                                       |        1 |
+| Edizioni Minerva Medica                                                         |        1 |
+| Forest Products Society                                                         |        1 |
+| Edizioni Tecnico Scientifica                                                    |        1 |
+| Imperial Cancer Research Fund                                                   |        1 |
+| British Science Association                                                     |        1 |
+| Federation of American Societies for Experimental Biology                       |        1 |
+| Frontiers Media                                                                 |        1 |
+| Indicator                                                                       |        1 |
+| Government of Canada                                                            |        1 |
+| Bioline International                                                           |        1 |
+| CJEAS                                                                           |        1 |
+| Bizmedia                                                                        |        1 |
+| Association for Physical Education                                              |        1 |
+| Association Digital Forensics Security Law                                      |        1 |
+| AAHPERD                                                                         |        1 |
+| Springer Publishing Company                                                     |        1 |
+| Archaeology Data Service                                                        |        1 |
+| International Monetary Fund                                                     |        1 |
+| Overseas Development Institute                                                  |        1 |
+| Alliance of Crop, Soil, and Environmental Science Societies                     |        1 |
+| American Medical Association                                                    |        1 |
+| Dove Medical Press                                                              |        1 |
+| Purdue University Press                                                         |        1 |
+| Bioscientifica                                                                  |        1 |
+| American Economic Association                                                   |        1 |
+| Council for Exceptional Children                                                |        1 |
+| Centre for Economic Policy Research                                             |        1 |
+| American Diabetes Association                                                   |        1 |
+| American College of Chest Physicians                                            |        1 |
+| American Chinese Media Research Association                                     |        1 |
+| American Association of Neurological Surgeons                                   |        1 |
+| American Association of Critical Care                                           |        1 |
+| American Academy of Pediatrics                                                  |        1 |
+| Allen Press                                                                     |        1 |
+| Columbia University                                                             |        1 |
+| American Philosophical Association                                              |        1 |
+| American Society for Cell Biology                                               |        1 |
+| Astronomical Society of the Pacific                                             |        1 |
+| Association of Teachers of Mathematics                                          |        1 |
+| Association of Ancient Historians                                               |        1 |
+| Association for Research in Vision and Ophthalmology                            |        1 |
+| American Society on Aging                                                       |        1 |
+| American Society of Nephrology                                                  |        1 |
+| American Society of Hematology                                                  |        1 |
+| American Society for Pharmacology and Experimental Therapeutics                 |        1 |
+| Akademos Press                                                                  |        1 |
+| Aboservice Oesterreichischer Agrarverlag                                        |        1 |
+| Equinox Publishing                                                              |        1 |
+| Brepols                                                                         |        1 |
+| Radiological Society of North America                                           |        1 |
+| East View Information Services                                                  |        1 |
+| Massachusetts Medical Society                                                   |        1 |
+| Neoplasia Press                                                                 |        1 |
+| Society for Leukocyte Biology                                                   |        1 |
+| Editorial Academy of the International Journal of Oncology                      |        1 |
+| University of the Basque Country Press                                          |        1 |
+| Society for Experimental Biology                                                |        1 |
+| The Harvey Society                                                              |        1 |
+| University of Wisconsin Press                                                   |        1 |
+| The National Library of Wales                                                   |        1 |
+| American College of Physicians                                                  |        1 |
+| Research Professional                                                           |        1 |
+| American Society for Clinical Investigation                                     |        1 |
+| Biotechniques                                                                   |        1 |
+| British Association for the Advancement of Science                              |        1 |
+| The Scientist                                                                   |        1 |
+| International Agency for Research on Cancer                                     |        1 |
+| Cryoletters LLP and Pritchard                                                   |        1 |
+| Visual Talent                                                                   |        1 |
+| Aesthetica Magazine                                                             |        1 |
+| The Royal Navy                                                                  |        1 |
+| Tatler Publishing Company                                                       |        1 |
+| University of Miami - Rosenstiel School of Marine and Atmospheric Science       |        1 |
+| Sears Foundation for Marine Research                                            |        1 |
+| Commonwealth Forestry Association                                               |        1 |
+| Association for Science Education                                               |        1 |
+| Keesings                                                                        |        1 |
+| Applied Probability Trust                                                       |        1 |
+| Bruil En Van De Staaij                                                          |        1 |
+| Carl Ed Schuenemann KG                                                          |        1 |
+| Sublime Magazine                                                                |        1 |
+| SBS Place de la Constitution                                                    |        1 |
+| SayOne Media                                                                    |        1 |
+| Photo Works Magazine                                                            |        1 |
+| Mslexia Publications                                                            |        1 |
+| Metropolitan Publications                                                       |        1 |
+| Kid's Wear Verlag                                                               |        1 |
+| Informa                                                                         |        1 |
+| National Academy of Sciences                                                    |        1 |
+| PrAcademics Press                                                               |        1 |
+| Peeters Online Journals                                                         |        1 |
+| Schofield Publishing                                                            |        1 |
+| Mohr Siebeck                                                                    |        1 |
+| Frankfurter Societaets-Medien                                                   |        1 |
+| Ceramic Arts Daily                                                              |        1 |
+| Craft Potters Association                                                       |        1 |
+| Arts of Asia                                                                    |        1 |
+| ArtReview                                                                       |        1 |
+| Independent                                                                     |        1 |
+| The Financial Times Limited                                                     |        1 |
+| American Institute of Certified Public Accountants                              |        1 |
+| Le Monde                                                                        |        1 |
+| Professional Boatbuilder                                                        |        1 |
+| US Naval Institute                                                              |        1 |
+| Private Eye                                                                     |        1 |
+| National Geographic Society                                                     |        1 |
+| Mercator Media                                                                  |        1 |
+| Les Editions Jalou                                                              |        1 |
+| Salisbury University                                                            |        1 |
+| Legal Action Group                                                              |        1 |
+| National Institute of Adult Continuing Education                                |        1 |
+| Economic and Political Weekly                                                   |        1 |
+| Project Manager Today                                                           |        1 |
+| Rainer Hampp Verlag                                                             |        1 |
+| Sagamore Publishing LLC                                                         |        1 |
+| School Bookshop Association                                                     |        1 |
+| Science & Medicine                                                              |        1 |
+| Scope                                                                           |        1 |
+| Sheffield Hallam University                                                     |        1 |
+| Slack Inc                                                                       |        1 |
+| Pavillion Publishing                                                            |        1 |
+| Nielsen Company                                                                 |        1 |
+| National Council of Teacher of English                                          |        1 |
+| Euromoney Institute Investor PLC                                                |        1 |
+| Geographical Association                                                        |        1 |
+| Hayward Medical Commmunications                                                 |        1 |
+| Institute of Education - University of London                                   |        1 |
+| International Society for Hypertension Blacks                                   |        1 |
+| Intersentia NV                                                                  |        1 |
+| J. Michael Ryan Publishing                                                      |        1 |
+| Lloyds List Group / IBI                                                         |        1 |
+| Youth & Policy                                                                  |        1 |
+| Gunter Narr Verlag                                                              |        1 |
+| Irish Nurses and Midwives Organisation                                          |        1 |
+| Societe de Publications et d'Editions Reunies                                   |        1 |
+| Vanity Fair Publications                                                        |        1 |
+| Travelscope                                                                     |        1 |
+| News Group Newspapers                                                           |        1 |
+| Economist Newspaper                                                             |        1 |
+| Institute of Shipping Economics and Logistics                                   |        1 |
+| The Nautical Institute                                                          |        1 |
+| Compass Publications                                                            |        1 |
+| Yachting Press                                                                  |        1 |
+| J. Reponen                                                                      |        1 |
+| Media Business Insight                                                          |        1 |
+| Society of American Foresters                                                   |        1 |
+| Society for Reproduction and Fertility                                          |        1 |
+| Hindawi Publishing Corporation                                                  |        1 |
+| Optical Society                                                                 |        1 |
+| Justis Publishing                                                               |        1 |
+| Editions de la Station Biologique de Roscoff                                    |        1 |
+| MA Education                                                                    |        1 |
+| Pal Korneliussen                                                                |        1 |
+| National Marine Electronics Association                                         |        1 |
+| Institute for Operations Research and the Management Sciences                   |        1 |
+| Estyn                                                                           |        1 |
+| Brown University                                                                |        1 |
+| Nida School of Translation Studies                                              |        1 |
+| Theatre Record                                                                  |        1 |
+| United Nations                                                                  |        1 |
+| University of Nottingham                                                        |        1 |
+| The Higher Education Academy                                                    |        1 |
+| Association for the Advancement of Computing in Education                       |        1 |
+| American Association for the Advancement of Science                             |        1 |
+| Current Publishing                                                              |        1 |
+| N.P. Engel                                                                      |        1 |
+| Research Council on Mathematics Learning                                        |        1 |
+| University of Winchester                                                        |        1 |
+| Indian Society of Agricultural Economics                                        |        1 |
+| Cushman Foundation for Foraminiferal Research                                   |        1 |
+| Le Nouvel Observateur                                                           |        1 |
+| National Association of Writers in Education                                    |        1 |
+| Marenex Press                                                                   |        1 |
+| Europe                                                                          |        1 |
+| Open Library of Humanities                                                      |        1 |
+| Edward Elgar Publishing                                                         |        1 |
+| American Thoracic Society                                                       |        1 |
+| Penn State University Press                                                     |        1 |
+| National Journal                                                                |        1 |
+| Ehraf World Cultures                                                            |        1 |
+| Edizioni del Galluzzo                                                           |        1 |
+| British Association of Day Surgery                                              |        1 |
+| Asian Institute for Development Communication                                   |        1 |
+| Agenda and Editions Charitable Trust                                            |        1 |
+| Association for Transpersonal Psychology                                        |        1 |
+| Institut de Mathématiques de Bordeaux                                           |        1 |
+| American Institute of Mathematical Sciences                                     |        1 |
+| European Mathematical Society                                                   |        1 |
+| National Center for Biotechnology Information                                   |        1 |
+| Westlaw                                                                         |        1 |
+| Centro Internazionale di Studi di Architettura Andrea Palladio                  |        1 |
+| Université de Poitiers                                                          |        1 |
+| Association for Improvements in the Maternity Services                          |        1 |
+| DVV International                                                               |        1 |
+| Canadian Historical Association                                                 |        1 |
+| Association of American Geographers                                             |        1 |
+| Association of Writers & Writing Programs                                       |        1 |
+| Hebrew University Magnes Press                                                  |        1 |
+| University of Chicago Press                                                     |        1 |
+| British Medical Journal                                                         |        1 |
+| Spare Rib                                                                       |        1 |
+| Iter                                                                            |        1 |
+| Journal of Dementia Care                                                        |        1 |
+| Royal College of Midwives                                                       |        1 |
+| English Association                                                             |        1 |
+| Ebsco                                                                           |        1 |
+| Society for Utopian Studies                                                     |        1 |
+| BMJ/RCN Publishing Group                                                        |        1 |
+| Association of Lawyers for Animal Welfare                                       |        1 |
+| Open Book Publishers                                                            |        1 |
+| Journal of Investement Management                                               |        1 |
+| Gatehouse Press                                                                 |        1 |
+| American Society of Clinical Oncology                                           |        1 |
+| Association of Schools of Allied Health Professions                             |        1 |
+| Ambit                                                                           |        1 |
+| Drama Online                                                                    |        1 |
+| The Thomas Hardy Association                                                    |        1 |
+| Harvard University Press                                                        |        1 |
+| Medical Education Solutions Limited                                             |        1 |
+| Cornell                                                                         |        1 |
+| Mintel International Group                                                      |        1 |
+| Centre National de la Recherche Scientifique Editiona                           |        1 |
+| REToday Services                                                                |        1 |
+| Raffaelli Editore                                                               |        1 |
+| Società Editrice il Mulino                                                      |        1 |
+| Practical Action Publishing                                                     |        1 |
+| Lextenso �ditions                                                               |        1 |
+| The Rialto                                                                      |        1 |
+| Lunds Universitet                                                               |        1 |
+| Poetry Book Society                                                             |        1 |
+| Magistrates Association                                                         |        1 |
+| Deutsche Landwirtschafts-Gesellschaft Verlag                                    |        1 |
+| Wayne State University Press                                                    |        1 |
+| Metropol Verlag                                                                 |        1 |
+| Hans Carl                                                                       |        1 |
+| Food and Agriculture Organization                                               |        1 |
+| Euromed Communications                                                          |        1 |
+| Editions Privat                                                                 |        1 |
+| Institute of International Banking Law & Practice                               |        1 |
+| Cairn                                                                           |        1 |
+| Town and Country 
+Planning Association                                          |        1 |
+| Canadian Archaeological Association                                             |        1 |
+| Verlag der Österreichischen Akademie der Wissenschaften                         |        1 |
+| University of Toronto Press                                                     |        1 |
+| University of Pittsburgh                                                        |        1 |
+| University of Illinois Press (UIP)                                              |        1 |
+| University of Illinois Press (Project Muse)                                     |        1 |
+| University of Illinois Press (JSTOR)                                            |        1 |
+| University of California Press (JSTOR)                                          |        1 |
+| Telos Press                                                                     |        1 |
+| Gale                                                                            |        1 |
+| Mental Health Nurses Association                                                |        1 |
+| Zeitverlag Gerd Bucerius GMBH                                                   |        1 |
+| Mineralogical Society of Great Britain and Ireland                              |        1 |
+| Mineralogical Society of America                                                |        1 |
+| American Journal of Science                                                     |        1 |
+| Future Science                                                                  |        1 |
+| Society of Economic Geologists                                                  |        1 |
+| Blackwell Publishing Limited                                                    |        1 |
+| Association for Computing Machinery                                             |        1 |
+| SPIE                                                                            |        1 |
+| Society Photo Optical Instrumentation                                           |        1 |
+| Society of Nuclear Medicine and Molecular Imaging                               |        1 |
+| Society for Longitudinal and Life Course Studies                                |        1 |
+| KT Press                                                                        |        1 |
+| Journal of Bone and Joint Surgery                                               |        1 |
+| Johns Hopkins University Press                                                  |        1 |
+| James Nicholas Publishers                                                       |        1 |
+| ISD                                                                             |        1 |
+| Institute of Mathematical Statistics                                            |        1 |
+| Institute for Human Geography                                                   |        1 |
+| Indiana University Press (JSTOR)                                                |        1 |
+| Magnolia Press                                                                  |        1 |
+| Mathematical Sciences Publishers                                                |        1 |
+| Men's Studies Press                                                             |        1 |
+| Royal College of Surgeons of England                                            |        1 |
+| Royal College of General Practitioners                                          |        1 |
+| Physicians Postgraduate Press Inc                                               |        1 |
+| Oxford Centre for Buddhist Studies                                              |        1 |
+| National Council Teachers Mathematics (JSTOR)                                   |        1 |
+| National Bureau of Economic Research                                            |        1 |
+| National Association of Geoscience Teachers                                     |        1 |
+| Michigan State University Press (JSTOR)                                         |        1 |
+| Homer Kitabevi                                                                  |        1 |
+| University of Huddersfield Press                                                |        1 |
+| British Association for Local History                                           |        1 |
+| National Association of Social Workers Press                                    |        1 |
+| Incorporated Council of Law Reporting                                           |        1 |
+| Editions Francis Lefebvre                                                       |        1 |
+| AMS Press                                                                       |        1 |
+| Stata Press                                                                     |        1 |
+| American Phytopathological Society                                              |        1 |
+| Thomson Reuters                                                                 |        1 |
+| Akadémiai Kiadó                                                                 |        1 |
+| Pharmaceutical Press                                                            |        1 |
+| Commonwealth Council for Educational Administration and Management              |        1 |
+| National Association for Environmental Education                                |        1 |
+| Lancaster University                                                            |        1 |
+| British Institute of Learning Disabilities                                      |        1 |
+| British Wildlife Publishing                                                     |        1 |
+| John Muir Institute for Environmental Studies                                   |        1 |
+| Granta Publications                                                             |        1 |
+| Instytut Matematyczny                                                           |        1 |
+| The Journal of Philosophy                                                       |        1 |
+| Meteorological Society of Japan                                                 |        1 |
+| University of Buckingham Press                                                  |        1 |
+| Society for Lincolnshire History & Archaeology                                  |        1 |
+| Seismological Society of America                                                |        1 |
+| American Society for Photogrammetry and Remote Sensing                          |        1 |
+| American Society of International Law                                           |        1 |
+| American Musicological Society                                                  |        1 |
+| Education Publishing Company                                                    |        1 |
+| Association for Language Learning                                               |        1 |
+| Mark Allen Healthcare                                                           |        1 |
+| ABREES                                                                          |        1 |
+| American Alliance of Museums                                                    |        1 |
+| Historical Association                                                          |        1 |
+| Institut Universitaire de Geriatrie de Montreal                                 |        1 |
+| Chartered Society of Physiotherapy                                              |        1 |
+| Societe des Annales de Bourgogne                                                |        1 |
+| Presses Universitaires de France                                                |        1 |
+| New York Review of Books                                                        |        1 |
+| Meyer and Meyer Verlag                                                          |        1 |
+| Micropaleontology Press                                                         |        1 |
+| Merlin Press                                                                    |        1 |
+| Midwives Information & Resource Service                                         |        1 |
+| Mathematical Association                                                        |        1 |
+| British Institute of Radiology                                                  |        1 |
+| Guardian News and Media                                                         |        1 |
+| Cahiers du cinema                                                               |        1 |
+| Blue Modernist                                                                  |        1 |
+| Baird Publications                                                              |        1 |
+| British Association of Social Workers                                           |        1 |
+| Bradbourne Publishing                                                           |        1 |
+| Brick Development Association                                                   |        1 |
+| British Association for Counselling & Psychotherapy                             |        1 |
+| British Institute of Non-Destructive Testing                                    |        1 |
+| British Safety Council                                                          |        1 |
+| Bloomsbury Professional                                                         |        1 |
+| Bloomberg                                                                       |        1 |
+| Bis                                                                             |        1 |
+| American Society of Comparative Law                                             |        1 |
+| Audio Engineering Society                                                       |        1 |
+| British Psychological Society                                                   |        1 |
+| Art Monthly Publishing                                                          |        1 |
+| Baltic and International Maritime Council                                       |        1 |
+| Bauer Consumer Media                                                            |        1 |
+| BBC Magazines                                                                   |        1 |
+| BFI                                                                             |        1 |
+| Builder Group                                                                   |        1 |
+| BPL Business Media                                                              |        1 |
+| Burlington Magazine Publications                                                |        1 |
+| ARLIS UK & Ireland                                                              |        1 |
+| Arcwind                                                                         |        1 |
+| Architecture Today                                                              |        1 |
+| World Scientific                                                                |        1 |
+| TASH Publishing                                                                 |        1 |
+| Rockefeller University Press                                                    |        1 |
+| Society for Sedimentary Geology                                                 |        1 |
+| Society for Neuroscience                                                        |        1 |
+| Arden Davies                                                                    |        1 |
+| Arnoldo Mondadori Editore                                                       |        1 |
+| Art Asia Pacific Publishing                                                     |        1 |
+| Butterworths                                                                    |        1 |
+| AZX Publications                                                                |        1 |
+| Authentik                                                                       |        1 |
+| Atlantic Communications                                                         |        1 |
+| Artons Cultural Affairs Society                                                 |        1 |
+| Artforum                                                                        |        1 |
+| Art News                                                                        |        1 |
+| Art Journals                                                                    |        1 |
+| Society for General Microbiology                                                |        1 |
+| Cahners                                                                         |        1 |
+| Franchise Development Services                                                  |        1 |
+| Edizioni Conde Nast Spa                                                         |        1 |
+| Editrice Progresso                                                              |        1 |
+| Edisea                                                                          |        1 |
+| Economics, Business & Enterprise Association                                    |        1 |
+| Deeson Group / Institution of Engineering Designers                             |        1 |
+| Dennis Publishing                                                               |        1 |
+| Durian                                                                          |        1 |
+| Centor                                                                          |        1 |
+| Educational Technology Publications                                             |        1 |
+| EMAP                                                                            |        1 |
+| Environmental Data Services                                                     |        1 |
+| FT Business                                                                     |        1 |
+| Future Publishing                                                               |        1 |
+| Euricom                                                                         |        1 |
+| European Documentary Network                                                    |        1 |
+| European Photography Publishing                                                 |        1 |
+| Eye Magazine                                                                    |        1 |
+| ETP                                                                             |        1 |
+| Estates Gazette - Reed Business Information                                     |        1 |
+| Centre for Economic Performance, London School of Economics                     |        1 |
+| Centre for Tourism Research and Development                                     |        1 |
+| Chartered Institute of Legal Executives                                         |        1 |
+| CronerCCH                                                                       |        1 |
+| CTE Publications                                                                |        1 |
+| Institution of Mechanical Engineers                                             |        1 |
+| Synthesis Media Ltd                                                             |        1 |
+| Centaur                                                                         |        1 |
+| Cecile Park                                                                     |        1 |
+| Caspian Media                                                                   |        1 |
+| Camera Austria Publishing                                                       |        1 |
+| Crafts Council                                                                  |        1 |
+| Conference Communication                                                        |        1 |
+| Conference and Travel Publications                                              |        1 |
+| Chartered Institute of Marketing                                                |        1 |
+| Chartered Institution of Building Services Engineers                            |        1 |
+| Chelsea Magazine Company                                                        |        1 |
+| Cineaction Collective                                                           |        1 |
+| Cinefex                                                                         |        1 |
+| Cobweb Information                                                              |        1 |
+| Cognizant Communication Corporation                                             |        1 |
+| Conde Nast                                                                      |        1 |
+| Caledonian Magazines Ltd                                                        |        1 |
+| Mycological Society of America                                                  |        1 |
+| Artist Information Company                                                      |        1 |
+| American Psychiatric Publishing                                                 |        1 |
+| Zeta Books                                                                      |        1 |
+| Humanities Directory                                                            |        1 |
+| Social Sciences Directory                                                       |        1 |
+| University of Chicago                                                           |        1 |
+| University of California Press                                                  |        1 |
+| Ten Alps Publishing                                                             |        1 |
+| Whiting and Birch                                                               |        1 |
+| American Schools of Oriental Research                                           |        1 |
+| American Society for Nutrition                                                  |        1 |
+| American Society for Testing and Materials                                      |        1 |
+| M.E.Sharpe                                                                      |        1 |
+| American Society of Limnology and Oceanography                                  |        1 |
+| American Society of Plant Biologists                                            |        1 |
+| American Society of Radiologic Technologists                                    |        1 |
+| American Society of Tropical Medicine and Hygiene                               |        1 |
+| Association des Publications de la Faculte de Theologie                         |        1 |
+| American Society of Animal Science                                              |        1 |
+| American Society of Agronomy                                                    |        1 |
+| Policy Press                                                                    |        1 |
+| Royal College of Psychiatrists                                                  |        1 |
+| Vathek Publishing:Master:2014                                                   |        1 |
+| Alliance for Children and Families                                              |        1 |
+| Alexandrine Press                                                               |        1 |
+| Aerospace Medical Association                                                   |        1 |
+| Acoustical Society of America                                                   |        1 |
+| Academy of Management                                                           |        1 |
+| Association for Psychological Science (formerly American Psychological Society) |        1 |
+| American Speech-Language-Hearing Association                                    |        1 |
+| JISC Collections                                                                |        1 |
+| American Accounting Association                                                 |        1 |
+| American Association of Immunologists                                           |        1 |
+| American Association of Petroleum Geologists                                    |        1 |
+| MIT Press                                                                       |        1 |
+| Jordan Publishing                                                               |        1 |
+| Hart Publishing                                                                 |        1 |
+| Braybrooke Press                                                                |        1 |
+| American Marketing Association                                                  |        1 |
+| American Institute of Aeronautics and Astronautics                              |        1 |
+| American Association on Intellectual and Developmental Disabilities             |        1 |
+| American Association of Physics Teachers                                        |        1 |
+| Berg Publishers                                                                 |        1 |
+| Baywood                                                                         |        1 |
+| ACCA                                                                            |        1 |
+| Journal of Rheumatology Publishing                                              |        1 |
+| Lawrence & Wishart                                                              |        1 |
+| JSAD                                                                            |        1 |
+| International Society for Horticultural Science                                 |        1 |
+| University of Wales Press                                                       |        1 |
+| PION                                                                            |        1 |
+| Rinton Press                                                                    |        1 |
+| Inter-Research Science Center                                                   |        1 |
+| MIT Sloan Management                                                            |        1 |
+| Aperture Foundation                                                             |        1 |
+| Another Publishing                                                              |        1 |
+| A.P.Publications                                                                |        1 |
+| Advanstar Communications                                                        |        1 |
+| Adbusters                                                                       |        1 |
+| Association of International Accountants                                        |        1 |
+| AM Publishing                                                                   |        1 |
+| American Society for Quality                                                    |        1 |
+| Ammons Scientific                                                               |        1 |
+| Anja Publications                                                               |        1 |
+| Harvard Graduate School of Education                                            |        1 |
+| Institute of Agricultural Management                                            |        1 |
+| New Left Review                                                                 |        1 |
+| College of Occupational Therapists                                              |        1 |
+| Genetics Society of America                                                     |        1 |
+| CSIRO                                                                           |        1 |
+| Chemical Society of Japan                                                       |        1 |
+| Company of Biologists                                                           |        1 |
+| Cold Spring Harbor Laboratory Press                                             |        1 |
+| British Agricultural History Society                                            |        1 |
+| Botanical Society of America                                                    |        1 |
+| Chartered Financial Analysts Institute                                          |        1 |
+| Human Kinetics                                                                  |        1 |
+| Ecological Society of America Journals                                          |        1 |
+| Palgrave Journals                                                               |        1 |
+| Portland Press                                                                  |        1 |
+| John Benjamins Publishing                                                       |        1 |
+| IP Publishing                                                                   |        1 |
+| Modern Language Association                                                     |        1 |
+| Geological Society - Lyell Collection                                           |        1 |
+| International Phycological Society                                              |        1 |
+| Imprint Academic                                                                |        1 |
+| Berghahn Journals                                                               |        1 |
+| Foto8                                                                           |        1 |
+| Tank                                                                            |        1 |
+| Silverdart                                                                      |        1 |
+| SF-TH Inc                                                                       |        1 |
+| Seibundo Shinkosha Publishing                                                   |        1 |
+| Seatrade Communications                                                         |        1 |
+| Screen Digest                                                                   |        1 |
+| Scientific American                                                             |        1 |
+| SBE                                                                             |        1 |
+| Ruehle-Diebener Verlag                                                          |        1 |
+| SNAME                                                                           |        1 |
+| Society of Illustrators                                                         |        1 |
+| Society of Manufacturing Engineers                                              |        1 |
+| Systems Design (4-F Jonsim)                                                     |        1 |
+| Sweet and Maxwell                                                               |        1 |
+| Surface                                                                         |        1 |
+| Stage Newspaper                                                                 |        1 |
+| Sports Coach UK                                                                 |        1 |
+| Spectator (1828) Ltd                                                            |        1 |
+| Source Magazine                                                                 |        1 |
+| SOS Publications                                                                |        1 |
+| Rudolf Augstein                                                                 |        1 |
+| Royal Television Society                                                        |        1 |
+| White Horse Press                                                               |        1 |
+| IHS Fairplay                                                                    |        1 |
+| Institute of Marine Engineering, Science and Technology                         |        1 |
+| Indiana University Press                                                        |        1 |
+| Informa Cargo                                                                   |        1 |
+| Informs                                                                         |        1 |
+| Intent Media                                                                    |        1 |
+| Inter-Disciplinary Press                                                        |        1 |
+| International Bar Association                                                   |        1 |
+| ICSA                                                                            |        1 |
+| Leisure Media                                                                   |        1 |
+| Miller Freeman                                                                  |        1 |
+| Warburg Institute, University of London                                         |        1 |
+| Scholastic                                                                      |        1 |
+| Institute of Industrial Engineers                                               |        1 |
+| Imagine Publications                                                            |        1 |
+| Incisive Media                                                                  |        1 |
+| Riviera Maritime Media                                                          |        1 |
+| PV Publications                                                                 |        1 |
+| Nexus Media Communications                                                      |        1 |
+| IOM3 Communications                                                             |        1 |
+| Tate Gallery                                                                    |        1 |
+| Telegraph Media Group                                                           |        1 |
+| Immediate Media Company                                                         |        1 |
+| Tindle Newspaper Group                                                          |        1 |
+| Yale Law Journal Company                                                        |        1 |
+| University of Wales                                                             |        1 |
+| Aberystwyth University                                                          |        1 |
+| Queen's University Belfast                                                      |        1 |
+| Writers International                                                           |        1 |
+| Writers' News                                                                   |        1 |
+| University of Rochester, Department of English                                  |        1 |
+| Universities Federation for Animal Welfare                                      |        1 |
+| Imaginative Minds                                                               |        1 |
+| Oncology Nursing Society                                                        |        1 |
+| Research Information                                                            |        1 |
+| Royal Netherlands Society for Agricultural Sciences                             |        1 |
+| Society of Biblical Literature                                                  |        1 |
+| Society of Exploration Geophysicists                                            |        1 |
+| Society of Wood Science and Technology                                          |        1 |
+| Stansted News                                                                   |        1 |
+| Symposium Journals                                                              |        1 |
+| World Tourism Organization                                                      |        1 |
+| World Illustrated                                                               |        1 |
+| Wooden Boat Publications                                                        |        1 |
+| UKSG                                                                            |        1 |
+| Turps Banana Magazine                                                           |        1 |
+| TSL Education                                                                   |        1 |
+| TRP Magazines                                                                   |        1 |
+| Trojan Projects                                                                 |        1 |
+| Tourism Society                                                                 |        1 |
+| Times Supplements                                                               |        1 |
+| Time Inc                                                                        |        1 |
+| Ultra-FIT                                                                       |        1 |
+| University Film & Video Association                                             |        1 |
+| University of Surrey                                                            |        1 |
+| World Meteorological Organization                                               |        1 |
+| Wimborne Publishing                                                             |        1 |
+| Wenner Media Inc                                                                |        1 |
+| Waterlow Information Services                                                   |        1 |
+| WARC                                                                            |        1 |
+| Wanderlust Publications                                                         |        1 |
+| W B Saunders                                                                    |        1 |
+| University of Texas Press                                                       |        1 |
+| Televisual Media                                                                |        1 |
+| Institute for Outdoor Learning                                                  |        1 |
+| Millivres Prowler                                                               |        1 |
+| L'Etudiant                                                                      |        1 |
+| Leland Stanford Junior University                                               |        1 |
+| Legal and Commercial Publishing                                                 |        1 |
+| Lawtext                                                                         |        1 |
+| Naked Punch Review                                                              |        1 |
+| Museums Association                                                             |        1 |
+| Antiquity Publications                                                          |        1 |
+| Hachette Filipacchi                                                             |        1 |
+| Levelprint                                                                      |        1 |
+| Lexington Press                                                                 |        1 |
+| Lippincott Williams & Wilkins                                                   |        1 |
+| Miller Sports Group LLC                                                         |        1 |
+| Michael Rubenstein Publishing                                                   |        1 |
+| Miami University Ohio                                                           |        1 |
+| McCALL                                                                          |        1 |
+| Mannin Media Group                                                              |        1 |
+| LTB (UK)                                                                        |        1 |
+| London Review of Books                                                          |        1 |
+| Logos                                                                           |        1 |
+| Hollywood : ASC Holding Corp                                                    |        1 |
+| Habla Con Ene                                                                   |        1 |
+| Hali Publications                                                               |        1 |
+| Go Publishing                                                                   |        1 |
+| Greenleaf Publishing                                                            |        1 |
+| Groupe Expansion                                                                |        1 |
+| Grupo 16                                                                        |        1 |
+| Guardian Magazines                                                              |        1 |
+| Guilford Publications                                                           |        1 |
+| Guineapiguana Publications                                                      |        1 |
+| Guthrum House                                                                   |        1 |
+| Global to Local Foundation                                                      |        1 |
+| Giancarlo Politi Editore                                                        |        1 |
+| G&J Espana                                                                      |        1 |
+| Harvard Business School                                                         |        1 |
+| Harvard Law Review Association                                                  |        1 |
+| Haymarket                                                                       |        1 |
+| HCB Publishing                                                                  |        1 |
+| Hearst Communications                                                           |        1 |
+| Henley Publishing                                                               |        1 |
+| Highlights Publications                                                         |        1 |
+| History Today                                                                   |        1 |
+| Findlay                                                                         |        1 |
+| Minerva Medica                                                                  |        1 |
+| IPC                                                                             |        1 |
+| RD Publications                                                                 |        1 |
+| Raw Vision                                                                      |        1 |
+| Radical Philosophy                                                              |        1 |
+| Purple Institute                                                                |        1 |
+| Prospect Publishing                                                             |        1 |
+| Professional Photographers America                                              |        1 |
+| Professional Lighting and Sound Association                                     |        1 |
+| Prisma Presse                                                                   |        1 |
+| Redactive Publishing                                                            |        1 |
+| Reed Business Information                                                       |        1 |
+| Rhode Island School of Design                                                   |        1 |
+| It's nice that                                                                  |        1 |
+| Jackdaw                                                                         |        1 |
+| Jaipur-Research Development Association                                         |        1 |
+| Kelsey Publishing                                                               |        1 |
+| Key Publishing Group                                                            |        1 |
+| Law Society                                                                     |        1 |
+| RINA                                                                            |        1 |
+| Richard Lawson                                                                  |        1 |
+| Printing and Paper Union of Switzerland                                         |        1 |
+| Powerboat and RIB magazine                                                      |        1 |
+| Pisani Editore                                                                  |        1 |
+| Newsquest Specialist Media                                                      |        1 |
+| Brant Art Publications                                                          |        1 |
+| New Statesman                                                                   |        1 |
+| New School University                                                           |        1 |
+| New Internationalist Publications                                               |        1 |
+| National Magazine Company                                                       |        1 |
+| MovieScope Publishing                                                           |        1 |
+| Morrison Media Services                                                         |        1 |
+| NTC Economic and Financial Publishing                                           |        1 |
+| National Union of Journalists                                                   |        1 |
+| Nuova Libra Editrice                                                            |        1 |
+| Pinede                                                                          |        1 |
+| Philip Allan                                                                    |        1 |
+| Personnel Publications                                                          |        1 |
+| Peak Performance Publishing                                                     |        1 |
+| Passenger Publishing                                                            |        1 |
+| Parkett Verlag                                                                  |        1 |
+| Open University                                                                 |        1 |
+| Nylon Worldwide Media LLC                                                       |        1 |
+| Moneyfacts Publications                                                         |        1 |
++---------------------------------------------------------------------------------+----------+
+773 rows in set (0.02 sec)
+
