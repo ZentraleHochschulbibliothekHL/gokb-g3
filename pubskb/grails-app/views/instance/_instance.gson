@@ -1,0 +1,11 @@
+import pubskb.Instance
+
+model {
+      Instance instance
+}
+
+json {
+  wibble 'a cheeky test'
+  id instance.id
+  title instance.title
+}
